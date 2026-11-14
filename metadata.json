@@ -1,0 +1,8 @@
+{
+  "name": "MARSCOPE",
+  "description": "Interplanetary Survival Guide: Martian Map — An integrated NASA scientific exploration platform for terrain analysis, mission route planning, and astronaut surface safety (2026 NASA Space Apps Challenge).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,66 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+@layer base {
+  :root {
+    --font-sans: "Public Sans", Arial, Helvetica, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    background-color: #ffffff;
+    color: #171717;
+  }
+
+  code,
+  pre,
+  .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+.leaflet-container {
+  font-family: var(--font-sans);
+  background-color: #e8eaed;
+}
+
+.leaflet-control-attribution {
+  font-size: 11px !important;
+  background: rgba(255, 255, 255, 0.92) !important;
+  color: #374151 !important;
+  border-top: 1px solid #d9dde2;
+  border-left: 1px solid #d9dde2;
+}
+
+.leaflet-control-attribution a {
+  color: #0057b8 !important;
+}
+
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+
+  #marscope-mission-report,
+  #marscope-mission-report * {
+    visibility: visible !important;
+  }
+
+  #marscope-mission-report {
+    position: absolute !important;
+    inset: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    background: #ffffff !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+}
+
