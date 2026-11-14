@@ -173,6 +173,3 @@ MARSCOPE is a prototype developed for the NASA Space Apps Challenge 2026.
 **Challenge:** NASA Space Apps Challenge 2026  
 **Domain:** Space Exploration | Planetary Science | Artificial Intelligence
 
-## 📄 License
-
-Add an appropriate open-source license before distributing the project.
